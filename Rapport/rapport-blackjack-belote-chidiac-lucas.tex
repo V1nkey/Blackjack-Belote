@@ -1,0 +1,47 @@
+\documentclass[a4paper]{report}
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}
+\usepackage{listingsutf8}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\geometry{hmargin=1.5cm,vmargin=1.7cm}
+\renewcommand{\thesection}{\Roman{section}}
+\renewcommand{\contentsname}{Table des matières}
+\lstset{%
+	float=hbp,basicstyle=\footnotesize\ttfamily\color{black},%
+	columns=fixed,tabsize=4,frame=single,%
+	showspaces=false,showstringspaces=false,numbers=left,%
+	numberstyle=\tiny\ttfamily\color{black},%
+	breaklines=true, breakindent=3em, breakautoindent=true,%
+	captionpos=t,xleftmargin=-1em,xrightmargin=-1em,lineskip=0pt,%
+	numbersep=1em,backgroundcolor=\color{white},%
+	keywordstyle=\bfseries\color{blue},%
+	literate=%
+         {à}{{\`a}}1
+         {í}{{\'i}}1
+         {î}{{\^i}}1
+         {é}{{\'e}}1
+         {è}{{\`e}}1
+         {ê}{{\^e}}1
+}
+
+\begin{document}
+\author{Kevin Chidiac - Maxime LUCAS}
+\date{25 avril 2016}
+\title{Java : Jeu de Blackjack et de Belote }
+\maketitle
+
+\tableofcontents
+\newpage
+
+\section{Introduction}
+
+Rapport trop swag.
+
+\subsubsection{app.class}
+\begin{lstlisting}[language={java}]
+void main(String)
+{
+}
+\end{lstlisting}
+\end{document}
